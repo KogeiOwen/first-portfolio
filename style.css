@@ -1,0 +1,44 @@
+/* sets up background color */
+body{
+  background-color: rgb(39, 34, 34)
+}
+
+/* sets up base layout and font */
+h1,h2,h3,nav,p,ol,ul {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+h1{
+  font-size: 50px;
+  height: 50px;
+}
+
+div {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+/* navigation bar spacing */
+nav a{
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/* styling links */
+a:link    { color: rgb(212, 115, 115);  }
+a:visited { color: rgb(73, 39, 71); }
+a:hover   { color: rgb(255, 255, 255);  }
+a:active  { color: rgb(54, 45, 53); }
+
+/* article layout */
+article {
+  margin: 200px
+}
+
+article p{
+  padding-top: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
